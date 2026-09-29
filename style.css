@@ -1,0 +1,56 @@
+@import url('https://googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Asap", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+body {
+    background-color: rgb(89, 149, 89);
+    font-size: 20px;
+}
+
+.mago {
+    border-radius: 3%;
+    border: 2px solid black;
+}
+
+.topo {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-topo{
+    background-color: rgb(188, 251, 196);
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 900px;
+    height: 150px;
+}
+
+.conteiner-topo>div {
+    padding: 10px
+}
+
+.conteiner-topo>div p {
+    font size: 20px;
+    text-align: center;
+}
+
+.conteiner-topo>div input {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px
+}
